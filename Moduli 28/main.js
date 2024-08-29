@@ -52,6 +52,6 @@ var regex6 = /end$/g
 document.getElementById("rex10").innerHTML = text10.match(regex6)
 
 
-var text11 = 'cat ,catalog, category'
+var text11 = 'cat ,catalog, category' 
 var regex7 = /^cat/g
 document.getElementById("rex11").innerHTML = text11.match(regex7)
