@@ -41,3 +41,17 @@ document.getElementById("rex7").innerHTML = text7.match(regex3);
 var text8 = "100 percent"
 var regex4 = /\d/g
 document.getElementById("rex8").innerHTML = text8.match(regex4);
+
+
+var text9 = "Hello , hello , helooo, helloooooo"
+var regex5 = /o{3,5}/g
+document.getElementById("rex9").innerHTML = text9.match(regex5)
+
+var text10 = "bestfriend , girlfriend, boyfriend"
+var regex6 = /end$/g
+document.getElementById("rex10").innerHTML = text10.match(regex6)
+
+
+var text11 = 'cat ,catalog, category'
+var regex7 = /^cat/g
+document.getElementById("rex11").innerHTML = text11.match(regex7)
