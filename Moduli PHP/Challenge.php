@@ -9,10 +9,10 @@
 
   $u = 5
 
- while($u <=50 ){
+   while($u <=50){
       echo"The number you are reffering too is : $u";
       $u++;
- }
+     }
 
 
 ?>
